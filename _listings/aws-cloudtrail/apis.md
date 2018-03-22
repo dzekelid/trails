@@ -31,7 +31,7 @@ apis:
   tags: Trails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-createtrail-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-deletetrail-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
