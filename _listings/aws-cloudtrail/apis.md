@@ -32,15 +32,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-updatetrail-get.md
-- name: AWS CloudTrail API Get Trail Status
-  description: Returns a JSON-formatted list of information about the specified trail.
+- name: AWS CloudTrail API Update Trail
+  description: Updates the settings that specify delivery of log files.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudTrail.png
   humanURL: https://aws.amazon.com/cloudtrail/
   baseURL: http:://{host}//
   tags: Trails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-gettrailstatus-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-updatetrail-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
