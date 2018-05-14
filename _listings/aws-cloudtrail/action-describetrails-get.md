@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Describe Trails
   version: 1.0.0
+  description: Retrieves settings for the trail associated with the current region
+    for your account.
 schemes:
 - http
 produces:
