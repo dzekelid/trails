@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Delete Trail
   version: 1.0.0
+  description: Deletes a trail.
 schemes:
 - http
 produces:
