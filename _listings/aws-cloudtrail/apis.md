@@ -32,7 +32,33 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-updatetrail-get.md
+- name: AWS CloudTrail API Create Trail
+  description: Creates a trail that specifies the settings for delivery of log data
+    to an Amazon S3 bucket.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudTrail.png
+  humanURL: https://aws.amazon.com/cloudtrail/
+  baseURL: http:://{host}//
+  tags: Trails
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-createtrail-get.md
 x-common:
+- type: x-console
+  url: https://console.aws.amazon.com/cloudtrail/home
+- type: x-documentation
+  url: http://docs.aws.amazon.com/awscloudtrail/latest/APIReference/Welcome.html
+- type: x-faq
+  url: https://aws.amazon.com/cloudtrail/faqs/
+- type: x-forum
+  url: https://forums.aws.amazon.com/forum.jspa?forumID=168
+- type: x-getting-started
+  url: https://aws.amazon.com/cloudtrail/getting-started/
+- type: x-partners
+  url: https://aws.amazon.com/cloudtrail/partners/
+- type: x-pricing
+  url: https://aws.amazon.com/cloudtrail/pricing/
+- type: x-website
+  url: https://aws.amazon.com/cloudtrail/
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
 - type: x-documentation
