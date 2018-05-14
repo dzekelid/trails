@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Get Trail Status
   version: 1.0.0
+  description: Returns a JSON-formatted list of information about the specified trail.
 schemes:
 - http
 produces:
