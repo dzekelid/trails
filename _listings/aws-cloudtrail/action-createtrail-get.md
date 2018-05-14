@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS CloudTrail API
+  title: AWS CloudTrail API Create Trail
   version: 1.0.0
+  description: Creates a trail that specifies the settings for delivery of log data
+    to an Amazon S3 bucket.
 schemes:
 - http
 produces:
