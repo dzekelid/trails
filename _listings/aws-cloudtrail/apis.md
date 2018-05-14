@@ -32,15 +32,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-updatetrail-get.md
-- name: AWS CloudTrail API Delete Trail
-  description: Deletes a trail.
+- name: AWS CloudTrail API Describe Trails
+  description: Retrieves settings for the trail associated with the current region
+    for your account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSCloudTrail.png
   humanURL: https://aws.amazon.com/cloudtrail/
   baseURL: http:://{host}//
   tags: Trails
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-deletetrail-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/trails/master/_listings/aws-cloudtrail/action-describetrails-get.md
 x-common:
 - type: x-console
   url: https://console.aws.amazon.com/cloudtrail/home
